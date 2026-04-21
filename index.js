@@ -24,9 +24,6 @@ function createLoginTracker(userInfo) {
   };
 }
 
-module.exports = {
-  ...(typeof createLoginTracker !== 'undefined' && { createLoginTracker })
-};
 
 
 module.exports = {
